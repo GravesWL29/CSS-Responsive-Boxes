@@ -1,3 +1,22 @@
+* {
+  border: 1px solid teal;
+}   
+
 body {
   background: blanchedalmond;
 }
+
+.container {
+	display: flex;
+  height: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.container > div {
+
+height: 100px;
+
+}
+
