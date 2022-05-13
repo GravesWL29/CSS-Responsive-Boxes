@@ -12,11 +12,24 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   min-height: 100vh;
+  
 }
 
 .container > div {
-
-height: 100px;
-
+min-height: 33vh;
 }
+
+/*@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  main {
+    max-width: 60%;
+  }
+  header, footer {
+    width: 100%;
+  }
+}                                  
+
 
